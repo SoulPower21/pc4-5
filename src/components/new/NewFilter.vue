@@ -24,14 +24,10 @@ export default {
   },
   methods: {
     applyFilter() {
-      if (this.startDate && this.endDate) {
-        this.$emit("update-filters", {
-          startDate: this.startDate,
-          endDate: this.endDate,
-        });
-      } else {
-        console.error("Favor de completar ambas fechas.");
-      }
+      this.$emit("update-filters", {
+        startDate: this.startDate,
+        endDate: this.endDate,
+      });
     },
   },
 };

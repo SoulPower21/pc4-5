@@ -16,21 +16,21 @@
 
 <style>
 .news-card {
-  width: 100%; /* Ancho del 100% del contenedor */
-  max-width: 500px; /* Ancho máximo para controlar el tamaño máximo */
-  margin-bottom: 20px; /* Espacio entre las tarjetas */
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
   background-color:azure;
 }
 
 .news-card q-card-section {
-  height: auto; /* Altura automática para secciones */
-  overflow: hidden; /* Ocultar desbordamiento */
+  height: auto;
+  overflow: hidden;
 }
 
 .news-description {
-  font-size: 14px; /* Tamaño de fuente para la descripción */
-  line-height: 1.5; /* Espaciado de línea */
-  color: #333; /* Color del texto */
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
 }
 </style>
 
